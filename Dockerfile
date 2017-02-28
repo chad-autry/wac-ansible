@@ -5,6 +5,7 @@ RUN apk add --no-cache \
     tar
 
 RUN \
+  mkdir ansible && \
   curl -fsSL http://releases.ansible.com/ansible/ansible-2.2.1.0.tar.gz -o ansible.tar.gz && \
   tar -xzf ansible.tar.gz -C ansible --strip-components 1 && \
   rm -fr ansible.tar.gz /ansible/docs /ansible/examples /ansible/packaging
