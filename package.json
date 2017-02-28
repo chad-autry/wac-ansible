@@ -1,6 +1,6 @@
 {
   "name": "wac-ansible",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Docker containerized ansible for use by wac-bp",
   "repository": {
     "type": "git",
